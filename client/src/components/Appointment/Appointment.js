@@ -11,7 +11,7 @@ import {
 
 import "Appointment.css"
 
-export default class Appointment extends Componen {
+export default class Appointment extends Component {
     render() {
         return(
             <Modal>
@@ -23,38 +23,38 @@ export default class Appointment extends Componen {
                 <ModalBody>
                     <Form>
                         <FormGroup>
-                            <Label for="SpecName">
+                            <Label for="specName">
                                 To:
                             </Label>
-                            <Input name="SpecName" type="text"/>
+                            <Input name="specName" type="text"/>
                         </FormGroup>
 
                         <FormGroup>
-                            <Label for="Subject">
+                            <Label for="subject">
                                 Subject:
                             </Label>
-                            <Input name="Subject" type="text"/>
+                            <Input name="subject" type="text"/>
                         </FormGroup>
 
                         <FormGroup>
-                            <Label for="Message">
+                            <Label for="message">
                                 Message:
                             </Label>
-                            <Input name="Message" type="textarea"/>
+                            <Input name="message" type="textarea"/>
                         </FormGroup>
 
                         <FormGroup>
-                            <Label for="PhysicianName">
+                            <Label for="physicianName">
                                 Referenced By:
                             </Label>
-                            <Input name="PhysicianName" type="text"/>
+                            <Input name="physicianName" type="text"/>
                         </FormGroup>
 
                         <FormGroup>
-                            <Label for="Availability">
+                            <Label for="availability">
                                 Availability: 
                             </Label>
-                            <Input name="Availability" type="date"/>
+                            <Input name="availability" type="date"/>
                         </FormGroup>
 
                     </Form>
