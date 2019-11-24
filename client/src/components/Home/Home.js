@@ -2,21 +2,23 @@ import React, {Component} from "react"
 import "Home.css"
 
 import{
-    Form,
-    FormGroup,
-    Label,
-    Input
+    Button
  } from "reactstrap"
 
 export default class Home extends Component {
     render() {
         return(
             <div>
-                <Form>
-                    <FormGroup>
-                        <Label></Label>
-                        <Input></Input>
-                    </FormGroup>
-                </Form>
+                <Button href="/search">
+                    English
+                </Button>
+
+                <Button href="/">
+                    Français
+                </Button>
+
             </div>
         )
+    }
+}
+
